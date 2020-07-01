@@ -7,5 +7,13 @@ cookie-session-localstorage-sessionstorage
 
 - cookie 既可以在浏览器端设置，要可以在服务端设置，每次请求的时候，会随着请求头一起发送到服务端,有大小限制 4KB
 
+- 对cookie的内容添加签名，保证其不被篡改
+- 对cookie 设置httpOnly 
+```
+
+```
+
+
 ## JWT 
 - jwt 是json web token的简称，不存在服务端
+
