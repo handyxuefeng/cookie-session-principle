@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/handyxuefeng/cookie-session-principle/issues"
   },
-  "homepage": "https://github.com/handyxuefeng/cookie-session-principle#readme"
+  "homepage": "https://github.com/handyxuefeng/cookie-session-principle#readme",
+  "dependencies": {
+    "@koa/router": "^9.0.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0"
+  }
 }
